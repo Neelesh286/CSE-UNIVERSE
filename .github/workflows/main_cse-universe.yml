@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'CSE-UNIVERSE'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_606975BC67AA48FEB0EB274842EFBE1F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_72D8DBBF36194CB4BD4A1BB3183AA101 }}
           package: .
