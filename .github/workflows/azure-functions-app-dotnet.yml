@@ -42,5 +42,5 @@ jobs:
       id: fa
       with:
         app-name: ${{ env.webapp_demo_1 }}
-        package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
+        package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/output'
         publish-profile: ${{ secrets.ASP_CORE_WEB_1_PUBLISH_PROFILE }} # Remove publish-profile to use Azure RBAC
