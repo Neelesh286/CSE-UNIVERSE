@@ -41,6 +41,6 @@ jobs:
       uses: Azure/functions-action@v1
       id: fa
       with:
-        app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
+        app-name: ${{ env.webapp_demo_1 }}
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
         publish-profile: ${{ secrets.ASP_CORE_WEB_1_PUBLISH_PROFILE }} # Remove publish-profile to use Azure RBAC
